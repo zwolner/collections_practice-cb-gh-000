@@ -59,7 +59,7 @@ def sum_array(int)
 end
 
 def add_s(int)
-  int.each_with_index.collect |element, index|
+  int.each_with_index.collect do |element, index|
     if index == 1
       element
     else
