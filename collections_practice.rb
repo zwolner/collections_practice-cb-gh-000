@@ -53,3 +53,6 @@ def find_a(int)
   end
   int.compact
 end
+
+def sum_array(int)
+  int.reduce(:+)
