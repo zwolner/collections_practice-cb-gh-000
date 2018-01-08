@@ -64,3 +64,6 @@ def add_s(int)
       element
     else
       element << "s"
+    end
+  end
+end
