@@ -57,3 +57,10 @@ end
 def sum_array(int)
   int.reduce(:+)
 end
+
+def add_s(int)
+  int.each_with_index.collect |element, index|
+    if index == 1
+      element
+    else
+      element + "s"
