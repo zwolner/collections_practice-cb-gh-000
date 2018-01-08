@@ -43,7 +43,7 @@ def kesha_maker(int)
 end
 
 def find_a(int)
-  int.map do |x|
+  int.map! do |x|
     split_word = x.split("")
     if split_word[0] != "a"
       x = nil
