@@ -56,3 +56,4 @@ end
 
 def sum_array(int)
   int.reduce(:+)
+end
