@@ -63,4 +63,4 @@ def add_s(int)
     if index == 1
       element
     else
-      element + "s"
+      element << "s"
